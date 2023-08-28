@@ -1,0 +1,76 @@
+.position-box {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40vw;
+      height: 60vh;
+      background-color: #252836;
+    }
+    
+  .square-image {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* This will set the height to match the width */
+    overflow: hidden;
+  }
+  .square-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down; /* This will maintain the aspect ratio and cover the container */
+  }
+
+
+    @media (min-width: 576px) {
+      .position-sm-static {
+        position: static !important;
+      }
+      .position-sm-relative {
+        position: relative !important;
+      }
+      .position-sm-absolute {
+        position: absolute !important;
+      }
+      .position-sm-fixed {
+        position: fixed !important;
+      }
+      .position-sm-sticky {
+        position: sticky !important;
+      }
+    }
+    @media (min-width: 768px) {
+      .position-md-static {
+        position: static !important;
+      }
+      .position-md-relative {
+        position: relative !important;
+      }
+      .position-md-absolute {
+        position: absolute !important;
+      }
+      .position-md-fixed {
+        position: fixed !important;
+      }
+      .position-md-sticky {
+        position: sticky !important;
+      }
+    }
+    @media (min-width: 992px) {
+      .position-lg-static {
+        position: static !important;
+      }
+      .position-lg-relative {
+        position: relative !important;
+      }
+      .position-lg-absolute {
+        position: absolute !important;
+      }
+      .position-lg-fixed {
+        position: fixed !important;
+      }
+      .position-lg-sticky {
+        position: sticky !important;
+      }
+    }
